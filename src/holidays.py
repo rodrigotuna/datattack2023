@@ -1,11 +1,40 @@
-import holidays
 
-# Define a holiday set for Brazil in 2022
-us_holidays = holidays.Portugal(years=[2016,2017,2018,2019,2020])
-br_holidays = holidays.CountryHoliday('BR', years=2022) 
+nationalHolidays = []
+nationalHolidays.append("01-01") #Ano Novo
+nationalHolidays.append("Data Móvel") 	#Sexta-feira Santa
+nationalHolidays.append("04-25") #Revolução dos Cravos
+nationalHolidays.append("05-01") #Dia do Trabalho
+nationalHolidays.append("06-10") #Dia de Portugal, de Camões e das Comunidades Portuguesas
+nationalHolidays.append("Data Móvel") 	#Corpo de Deus
+nationalHolidays.append("08-15")#Assunção de Nossa Senhora
+nationalHolidays.append("10-05") #Proclamação da República
+nationalHolidays.append("11-01") #Dia de Todos os Santos
+nationalHolidays.append("12-01") #Restauração da Independência
+nationalHolidays.append("12-08") #Dia da Imaculada Conceição
+nationalHolidays.append("12-25") #Natal
 
-# Check if a given date is a holiday
-if '2022-01-01' in br_holidays:
-    print('New Year\'s Day is a holiday in Brazil')
-else:
-    print('New Year\'s Day is not a holiday in Brazil')
+regionalHolidays = []
+regionalHolidays.append(("01-11", "Obidos")) # ver se acentos dão match
+regionalHolidays.append(("01-13", "Cadaval"))
+regionalHolidays.append(("01-13", "Santa Maria de Penaguião")) # ver se acentos dão match
+regionalHolidays.append(("01-13", "Viana de Alentejo"))
+regionalHolidays.append(("01-13", "Vila Nova de Poiares"))
+regionalHolidays.append(("01-14", "Elvas"))
+regionalHolidays.append(("01-15", "Santa Cruz"))
+regionalHolidays.append(("01-20", "Santa Maria da Feira"))
+regionalHolidays.append(("01-22", "São Vicente")) # ver se acentos dão match
+regionalHolidays.append(("01-22", "Vila do Bispo"))
+regionalHolidays.append(("02-02", "Mourao")) # ver se acentos dão match
+regionalHolidays.append(("02-10", "Aguiar da Beira"))
+regionalHolidays.append(("02-18", "Valença")) # ver se acentos dão match
+regionalHolidays.append(("03-01", "Tomar"))
+regionalHolidays.append(("03-02", "Vila Nova de Paiva"))
+regionalHolidays.append(("03-04", "Manteigas"))
+regionalHolidays.append(("03-05", "Ferreira do Alentejo"))
+regionalHolidays.append(("03-08", "Montemor-o-Novo")) # ver se acentos dão match
+regionalHolidays.append(("03-12", "Monção")) # ver se acentos dão match
+regionalHolidays.append(("03-19", "Póvoa de Lanhoso")) # ver se acentos dão match
+regionalHolidays.append(("03-19", "Santarém")) # ver se acentos dão match
+regionalHolidays.append(("03-19", "Torre de Moncorvo")) # ver se acentos dão match
+regionalHolidays.append(("03-19", "Vizela")) # ver se acentos dão match
+
