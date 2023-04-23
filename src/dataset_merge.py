@@ -73,6 +73,12 @@ def calculate_easter_date(year):
 def add_holiday():
     pass
 
+
+def transform_time_duration():
+    data = pd.read_csv('../data/ocorrencias_clean_extra.csv', sep = ',')
+
+    #transform DataFechoOperacional 
+
 if __name__ == '__main__':
     add_density()
     #add_weekday()
